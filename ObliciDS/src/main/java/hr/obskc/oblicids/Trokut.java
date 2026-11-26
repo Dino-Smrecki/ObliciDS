@@ -21,21 +21,20 @@ public class Trokut extends Oblik{
             throw new IllegalArgumentException ("Unesene stranice ne zadovoljavaju nejednakosti trokuta");
         }
     }
-     
-    private double s=(a+b+c)/2;
-
+    
     @Override
     public double opseg() {
-        return s*2;
+        return a+b+c;
     }
     
      @Override
     public double povrsina() {
-        return Math.sqrt(s * (s - a) * (s - b) * (s - c));
+        double s=opseg()/2;
+        return Math.sqrt(s*(s-a)*(s-b)*(s-c));
     }
      
      @Override
     public String toString() {
-        return "Trokut[naziv="+super.toString()+", a="+a+", b="+b+", c="+c+"]";
+        return "Trokut["+super.toString()+", a="+a+", b="+b+", c="+c+"]";
     } 
 }

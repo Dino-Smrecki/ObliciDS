@@ -31,7 +31,7 @@ public class Krug extends Oblik{
      
      @Override
     public String toString() {
-        return "Krug[naziv="+super.toString()+", r="+polumjer+", d="+promjer()+"]";
+        return "Krug["+super.toString()+", r="+polumjer+", d="+promjer()+"]";
     } 
     
     @Override

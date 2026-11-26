@@ -21,7 +21,7 @@ public abstract class Oblik {
     
     @Override
     public String toString() {
-        return "ime="+ ime;
+        return "naziv="+ ime;
     }
     
       public String summary() {

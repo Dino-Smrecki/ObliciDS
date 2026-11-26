@@ -36,6 +36,6 @@ public class Pravokutnik extends Oblik {
      
      @Override
     public String toString() {
-        return "Pravokutnik[naziv="+super.toString()+", a="+a+", b="+b+", ležeći je?: "+jeLezeci()+"]";
+        return "Pravokutnik["+super.toString()+", a="+a+", b="+b+", ležeći je?: "+jeLezeci()+"]";
     } 
 }

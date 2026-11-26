@@ -10,7 +10,7 @@ public class ObliciDS {
             new Krug("Tacna", 13.4),
             new Pravokutnik("Stolnjak", 102, 33.5),
             new Trokut("Miroslav", 3.4, 6.4, 4.3),
-            new Kvadrat("Pločica", 32, 32)
+            new Kvadrat("Pločica", 32)
         };
         
         for (Oblik Oblik:skup) {
